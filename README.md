@@ -12,6 +12,7 @@ scikit-image
 scikit-learn  
 umap-learn  
 pandas  
+matplotlib
 
 
 ## Datasets
