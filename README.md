@@ -6,7 +6,6 @@ Domain Shift analyzer for MRI
 
 
 ## Requirements
-nibabel  
 medpy  
 pandas  
 scikit-learn  
@@ -28,7 +27,7 @@ CALSNIC dataset can be requested from [CALSNIC](https://calsnic.org/) (Canadian 
 
 
 ## Command
-Run `python dsmri.py output_folder_name “input directory”`. It will generate `features.csv` and `results.tsv` in the `Results` folder.
+Run `python dsmri.py output_folder_name “input directory”`. It will generate `features.csv` and `results.tsv` in the `Results/output_folder_name` folder.
 
 
 
