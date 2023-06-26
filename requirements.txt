@@ -6,3 +6,4 @@ numpy
 scipy
 matplotlib
 scikit-image
+seaborn
