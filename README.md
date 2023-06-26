@@ -14,6 +14,7 @@ numpy
 scipy  
 matplotlib  
 scikit-image  
+seaborn  
 
 
 To create a new conda environment: `conda create -n dsmri python=3.7`
@@ -27,9 +28,12 @@ CALSNIC dataset can be requested from [CALSNIC](https://calsnic.org/) (Canadian 
 
 
 ## Command
-Run `python dsmri.py output_folder_name “input directory”`. It will generate `features.csv` and `results.tsv` in the `Results/output_folder_name` folder.
+Run `python dsmri.py output_folder_name “input directory”`. For example, `python dsmri.py CALSNIC1 "D:\DS_MRI\Dataset\CALSNIC1"`. It will generate `features.csv` and `results.tsv` in the `Results/CALSNIC1` folder.
 
-
+## Hyper-parameters
+`-b`-> number of gap in consecutive slices, default= 5. The features will be extracted from an interval of five slices by default. Setting the value as `1` will consider every slice in the range.   
+`-c`-> percent of central images, default= 70. The first 15% and last 15% slices will not be considered by default. Setting the value as `100` will start the slice range from first to last.  
+`-p`-> perplexity for t-SNE method, default= 30. The t-SNE method requires the total samples to be greater than the value of perplexity. The perplexity is related to the number of nearest neighbours. Larger datasets usually require a larger perplexity. Consider selecting a value between 5 and 50.
 
 ## Contact
 Email at: kushol@ualberta.ca
