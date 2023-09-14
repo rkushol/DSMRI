@@ -1,10 +1,15 @@
 # DSMRI
-Domain Shift analyzer for MRI
+DSMRI: Domain Shift Analyzer for Multi-Center MRI Datasets
 
-(The complete code will be released after the acceptance of the paper)
+The paper has been published in the Journal of Diagnostics
+
+Link: https://doi.org/10.3390/diagnostics13182947
+
+
+(The complete code will be released soon)
 
 ## Abstract
-
+In medical research and clinical applications, the utilization of MRI datasets from multiple centers has become increasingly prevalent. However, inherent variability between these centers presents challenges due to domain shift, which can impact the quality and reliability of the analysis. Regrettably, the absence of adequate tools for domain shift analysis hinders the development and validation of domain adaptation and harmonization techniques. To address this issue, this paper presents a novel Domain Shift analyzer for MRI (DSMRI) framework designed explicitly for domain shift analysis in multi-center MRI datasets. The proposed model assesses the degree of domain shift within an MRI dataset by leveraging various MRI-quality-related metrics derived from the spatial domain. DSMRI also incorporates features from the frequency domain to capture low- and high-frequency information about the image. It further includes the wavelet domain features by effectively measuring the sparsity and energy present in the wavelet coefficients. Furthermore, DSMRI introduces several texture features, thereby enhancing the robustness of the domain shift analysis process. The proposed framework includes visualization techniques such as t-SNE and UMAP to demonstrate that similar data are grouped closely while dissimilar data are in separate clusters. Additionally, quantitative analysis is used to measure the domain shift distance, domain classification accuracy, and the ranking of significant features. The effectiveness of the proposed approach is demonstrated using experimental evaluations on seven large-scale multi-site neuroimaging datasets.
 
 
 ## Requirements
