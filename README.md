@@ -1,9 +1,19 @@
 # DSMRI
-DSMRI: Domain Shift Analyzer for Multi-Center MRI Datasets
+**DSMRI: Domain Shift Analyzer for Multi-Center MRI Datasets**
 
 The paper has been published in the Journal of Diagnostics.
+Link: https://doi.org/10.3390/diagnostics13182947.
 
-Link: https://doi.org/10.3390/diagnostics13182947
+@article{kushol2023dsmri,
+  title={Dsmri: Domain shift analyzer for multi-center mri datasets},
+  author={Kushol, Rafsanjany and Wilman, Alan H and Kalra, Sanjay and Yang, Yee-Hong},
+  journal={Diagnostics},
+  volume={13},
+  number={18},
+  pages={2947},
+  year={2023},
+  publisher={MDPI}
+}
 
 
 ## Abstract
