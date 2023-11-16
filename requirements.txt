@@ -7,3 +7,5 @@ scipy
 matplotlib
 scikit-image
 seaborn
+nibabel
+PyWavelets
