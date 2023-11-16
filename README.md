@@ -14,17 +14,17 @@ In medical research and clinical applications, the utilization of MRI datasets f
 
 
 ## Requirements
-medpy
-pandas
-scikit-learn
-umap-learn
-numpy
-scipy
-matplotlib
-scikit-image
-seaborn
-nibabel
-PyWavelets 
+medpy  
+pandas  
+scikit-learn  
+umap-learn  
+numpy  
+scipy  
+matplotlib  
+scikit-image  
+seaborn  
+nibabel  
+PyWavelets   
 
 
 To create a new conda environment: `conda create -n dsmri python=3.9`
