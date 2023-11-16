@@ -5,6 +5,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_selection import SelectFromModel
 
 # Load data from CSV file
+# Create a new column after the first column in the generated features.csv file to provide the labels of your domain. 
+# In our sample features_ADNI2.csv file, its "Manufacturer" column with 'GE', 'Siemens' and 'Philips' labels.
+# You can remove the TSNEX, TSNEY, UMAPX, and UMAPY columns from the features.csv file for this feature importance analysis.
 data = pd.read_csv("features_ADNI2.csv")
 
 # Separate the labels (class) from the features
