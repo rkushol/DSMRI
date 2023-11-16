@@ -9,3 +9,4 @@ scikit-image
 seaborn
 nibabel
 PyWavelets
+plotly
