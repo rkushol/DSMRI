@@ -24,7 +24,8 @@ matplotlib
 scikit-image  
 seaborn  
 nibabel  
-PyWavelets   
+PyWavelets  
+plotly   
 
 
 To create a new conda environment: `conda create -n dsmri python=3.9`
